@@ -11,7 +11,8 @@ var drops = [];
 for (var x = 0; x < columns; x++) {
     drops[x] = 1;
 }
-function draw() {
+
+export default function hacker() {
     //让背景逐渐由透明到不透明
     ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -28,4 +29,3 @@ function draw() {
         drops[i]++;
     }
 }
-setInterval(draw, 33);

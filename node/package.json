@@ -1,0 +1,20 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "这是一个node项目",
+  "main": "main.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "start": "node timer.js -m '上手了' -t 3",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ouyang",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "ora": "^4.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
