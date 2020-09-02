@@ -21,7 +21,7 @@
     </ul>
     <div v-else class="no-data">
       <div></div>
-      <span>该分类下还没有文章哦</span>
+      <span>该分类下还没有文章哦 test</span>
     </div>
     <div class="bottom-bar">
       <input type="text" class="fl query" v-model="keyword" placeholder="按文章标题或内容搜索..."
